@@ -115,7 +115,7 @@ public class Main extends JFrame implements ActionListener {
         gbc.gridy = 0;
         gbc.insets = new Insets(10, 10, 10, 10);
 
-        setTitle("Simple ATM");
+        setTitle("ATM");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
         add(loginPanel, BorderLayout.NORTH);
